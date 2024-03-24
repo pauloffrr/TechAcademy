@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+     'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    height: 80px;
+    background: wheat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 2);
+}
+
+.logo {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+}
+
+nav a {
+    text-decoration: none
+    color black;
+    padding: 0 1.5rem;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+nav a:hover{
+    background: white;
+    color: black;
+}
+
+main, body {
+    background: grey;
+    text-align: center;
+}
+
+main {
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: wheat;
+    text-align: center;
+}
