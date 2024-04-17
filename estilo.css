@@ -8,7 +8,7 @@
 
 nav {
     height: 80px;
-    background: wheat;
+    background: lightskyblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,10 +42,17 @@ main, body {
 }
 
 footer {
-    background-color: wheat;
+    background-color: lightskyblue;
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
 }
 
 main {
+    font-size: large;
+}
+
+h5, h6 {
     font-size: large;
 }
