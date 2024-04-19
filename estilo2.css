@@ -37,7 +37,7 @@ nav a:hover{
 }
 
 main, body {
-    background: grey;
+    background: cornflowerblue;
     text-align: center;
 }
 
@@ -51,4 +51,12 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100vw;
+}
+
+img {
+    width: 254;
+    height: 339;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    
 }
